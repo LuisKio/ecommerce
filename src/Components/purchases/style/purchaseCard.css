@@ -1,0 +1,57 @@
+.purchaseCard{
+    border: 1px solid rgba(172, 172, 172, .4);
+    padding: 0 15px;
+    border-radius: 5px;
+    color: #515151;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+.purchaseCard__header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding: 0 15px;
+}
+
+.purchaseCard__header::after{
+    content: '';
+    display: block;
+    width: 200%;
+    height: 30px;
+    position: absolute;
+    left: -50%;
+    border-bottom: 2px solid rgba(172, 172, 172, .2);
+    padding: 0 0 15px 0;
+}
+
+.purchaseCard__header-title{
+    flex: 2 1;
+}
+
+.purchaseCard__header-content{
+    flex: 1 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.purchaseCard__header span{
+    font-weight: bold;
+    color: #515151;
+}
+
+.purchaseCard__date{
+    font-size: 18px;
+    position: relative;
+    color: #515151;
+    text-transform: capitalize;
+}
+
+.purchaseCard__list{
+    padding: 0 10px;
+}

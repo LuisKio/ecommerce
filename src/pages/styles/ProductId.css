@@ -1,0 +1,38 @@
+.productId{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 10px;
+}
+
+.productId__path{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.productId__home{
+    color: #515151;
+    font-size: 17px;
+}
+
+.productId__point{
+    color: var(--color-red);
+    font-size: 6px;
+}
+
+.productId__nameProduct{
+    color: #515151;
+    font-weight: bold;
+}
+
+.discoverItems{
+    margin-top: 10%;
+}
+
+.discoverItems > h3{
+    color: var(--color-red);
+    font-size: 20px;
+    font-weight: bold;
+}

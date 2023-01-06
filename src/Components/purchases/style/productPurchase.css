@@ -1,0 +1,34 @@
+.productPurchase{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-bottom: 1px solid var(--color-gray);
+    padding-left: 5px;
+}
+
+.productPurhcase__title{
+    flex: 2 1;
+}
+
+.productPurhcase__title h4{
+    font-weight: 400;
+} 
+
+.productPurchase__content{
+    flex: 1 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .productPurchase{
+        border: none;
+        
+    }
+
+   
+}

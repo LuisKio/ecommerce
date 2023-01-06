@@ -1,0 +1,75 @@
+.home{
+    margin: 0 auto;
+    width: 98%;
+    padding: 40px 0;
+}
+
+.home__form{
+    width: 90%;
+    margin: 20px auto;
+    position: relative;
+}
+
+@media (min-width: 960px) {
+    .home__form{
+        width: 50%;
+    }
+}
+
+.home__form::after{
+    content: '';
+    width: 98%;
+    height: 1px;
+    background-color: rgba(248, 85, 85, .5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.home__form-input{
+    color: var(--color-gray);
+    padding: 10px 40px 10px 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.home__form-input::placeholder{
+    color: var(--color-gray);
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.home__form-btn{
+    font-size: 14px;
+    padding: 10px;
+    border: none;
+    color: #FFF;
+    background-color: var(--color-red);
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.home__containerProducts{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+    justify-content: center;
+    grid-template-rows: auto;
+    gap: 40px;
+    margin: 0 20px 20px 20px;
+    margin-left: 3%;
+}
+
+.home__container{
+    display: flex;
+    flex-direction: row;
+    padding: 30px 0;
+}
